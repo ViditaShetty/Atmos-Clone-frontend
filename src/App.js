@@ -10,7 +10,6 @@ import RadialGradientt from './components/radial-gradient (1).png';
 
 function App() {
 
-
   const[load,setLoad]=useState(true)
   const[hover,setHover]=useState(false)
   return (
@@ -49,6 +48,7 @@ function App() {
           </Scroll>
 
           </ScrollControls>
+          
          </>
       
    }</Canvas>
